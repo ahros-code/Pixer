@@ -28,7 +28,7 @@
 	</head>
 
 	<body>
-		<section>
+		<header class="navbar_section">
 			<div class="container">
 				<div class="navbar">
 					<div class="logo">
@@ -40,7 +40,7 @@
 								<a href="#">Bosh sahifa</a>
 							</li>
 							<li class="navbar-item">
-								<a href="#">Xizmatlar</a>
+								<a href="./xizmatlar.html">Xizmatlar</a>
 							</li>
 							<li class="navbar-item">
 								<a href="#">Portfolio</a>
@@ -62,8 +62,7 @@
 					</div>
 				</div>
 			</div>
-		</section>
-
+		</header>
 		<section class="hero-section">
 			<div class="container">
 				<div class="hero-content">
@@ -257,18 +256,27 @@
 							Vivamus mattis eros at sem pulvinar
 						</p>
 						<div class="email-form">
-							<form>
-								<input class="salom" type="text" placeholder="Ismingiz" />
+							<form action="https://echo.htmlacademy.ru/" method="post">
+								<input
+									class="salom"
+									type="text"
+									placeholder="Ismingiz"
+									name="Name"
+								/>
 								<input
 									class="salom"
 									type="text"
 									placeholder="Telefon raqamingiz"
+									name="Phone number"
 								/>
-								<input class="salom" type="text" placeholder="Xizmat turi" />
-							</form>
-							<a href="#">
+								<input
+									class="salom"
+									type="text"
+									placeholder="Xizmat turi"
+									name="Service type"
+								/>
 								<button class="btn-2">Buyurtma berish</button>
-							</a>
+							</form>
 						</div>
 					</div>
 				</div>

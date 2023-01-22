@@ -32,6 +32,10 @@ body {
 	display: flex;
 }
 
+.navbar_section {
+	box-shadow: 0px 4px 20px 0px #0000001a;
+}
+
 a {
 	text-decoration: none;
 }
@@ -380,4 +384,117 @@ input {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 24px;
+}
+
+/* xizmatlar page */
+
+.xizmatlar__cards {
+	padding-bottom: 80px;
+}
+
+.xizmatlar__title {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 130%;
+	text-align: center;
+	margin-top: 72px;
+	margin-bottom: 16px;
+}
+
+.xizmatlar__text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	width: 800px;
+	height: 72px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 72px;
+}
+
+.xizmatlar__cards {
+	background: #f4f4f4;
+	padding-top: 80px;
+}
+
+.card__content {
+	display: flex;
+	justify-content: space-between;
+}
+
+.card {
+	width: 804px;
+	height: 378px;
+	box-shadow: 0px 10px 16px 0px #0000001f;
+	background: #fff;
+	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 64px;
+	padding: 32px;
+}
+
+.card__title {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 130%;
+	margin-bottom: 16px;
+}
+
+.card__text {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	width: 500px;
+	height: 48px;
+	margin-bottom: 16px;
+}
+
+.card__item {
+	position: relative;
+	margin-left: 20px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 8px;
+}
+
+.card__item::before {
+	content: '';
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	background: #00bafc;
+	display: inline-block;
+	border-radius: 12px;
+	margin-left: -20px;
+	top: 5px;
+}
+
+.card__buttonOne {
+	width: 167px;
+	height: 40px;
+	background: #00bafc;
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	margin-top: 16px;
+}
+
+.buttons {
+	display: flex;
+	align-items: center;
+	gap: 16px;
+}
+
+.card__buttonTwo {
+	text-decoration: underline;
+	color: #00bafc;
+	margin-top: 11px;
 }
